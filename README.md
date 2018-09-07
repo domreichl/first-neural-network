@@ -8,7 +8,7 @@ Neural network that recognizes drawn digits
 ### Additional Information
 Node outputs are defined by a logistic sigmoid activation function.
 
-This program was written in Python 3.7 and requires the third-party modules *NumPy* and *imageio*.
+This program was written in Python 3.7 and requires the third-party modules *NumPy*, *Pillow*, and *imageio*.
 
 The file *training_data.csv* contains the data of 340 28x28 images (34 for each digit), turned into csv using the following code:
 
