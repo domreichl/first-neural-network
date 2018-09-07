@@ -63,5 +63,4 @@ class Paint:
     def reset(self):
         self.canvas.delete('all')
 
-if __name__ == '__main__':
-    Paint()
+Paint()
