@@ -17,7 +17,8 @@ The file *training_data.csv* contains the data of 340 28x28 images (34 for each 
       image = imageio.imread(image_path)
       image = 255.0 - image.flatten()
       image = image / 255.0 * 0.99 + 0.01
-      image = list(str(i)[-1]) + list(image)
+      image = list(str(i)[-1]) + list(image) # adds current digit info in front
+        # assumes that files are decadically ordered (e.g., image file #24 represents digit 4)
       with open('training_data.csv', 'a', newline='') as file:
         writer_object = csv.writer(file, delimiter=',')
         writer_object.writerow(image)
