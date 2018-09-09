@@ -6,7 +6,7 @@ Neural network that recognizes drawn digits
 2. Run *neural_network.py* to train a network with *training_data.csv* and test it with the images created in step 1.
 
 ### Additional Information
-Node outputs are defined by a logistic sigmoid activation function.
+Node outputs are defined by a logistic/sigmoid activation function.
 
 This program was written in Python 3.7 and requires the third-party modules *NumPy*, *Pillow*, and *imageio*.
 
