@@ -2,7 +2,7 @@
 Neural network that recognizes drawn digits
 
 ### How to Use
-1. Run *paint.py* to draw ten digits (0-9) and save each as a png file. (ImageGrab only works on Windows & Mac.)
+1. Run *paint.py* to draw ten digits (0-9) and save each as a png file. (ImageGrab only works on Windows and Mac.)
 2. Run *neural_network.py* to train a network with *training_data.csv* and test it with the images created in step 1.
 
 ### Additional Information
