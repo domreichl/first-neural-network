@@ -1,5 +1,5 @@
 # first-neural-network
-Neural network that recognizes drawn digits
+A neural network, built from scratch, that recognizes drawn digits
 
 ### How to Use
 1. Run *paint.py* to draw ten digits (0-9) and save each as a png file. (ImageGrab only works on Windows and Mac.)
